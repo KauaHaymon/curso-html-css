@@ -1,2 +1,2 @@
 # curso-html-css
- Curso de HTML5 e CSS3 do CursoemVídeo. Teste
+ Curso de HTML5 e CSS3 do CursoemVídeo.
