@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="330" controls poster="imagens/limoes-capa.png">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.m4v" type="video/m4v">
+        <source src="midia/video.webm" type="video/webm">
+        <source src="midia/video.ogv" type="video/ogv"> <!-- iphone, safari-->
+    </video>
+    <h1>Inserindo vídeo do Youtube.</h1>
+    <iframe width="330" height="215" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo do Vimeo.</h1>
+    <iframe src="https://player.vimeo.com/video/553014451?h=3f3054cd2e&color=ff9933" width="330" height="215" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo do warezcdn</h1>
+
+    <iframe src="https://embed.warezcdn.net/filme/tt0088763" frameborder="0" width="630" height="415" allow="fullscreen, autoplay" allowfullscreen></iframe>
+    <!-- Cuidado com Copyright (filme: De volta para o futuro)-->
+</body>
+</html>

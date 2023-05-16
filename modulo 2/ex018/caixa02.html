@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(75, 62, 124);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(97, 53, 218);
+            padding: 10px;
+            margin: 0px;
+            border-radius: 0px 0px 10px 10px;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(32, 63, 31);
+        }
+        h1 { 
+            color: white;
+        }
+        nav {
+            background-color: rgb(68, 120, 179);
+            padding: 5px;
+            box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.452);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+        #noticias {
+            box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.815);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px 5px 0px 0px;
+        }
+        article > aside{
+            background-color: rgb(145, 141, 141);
+            width: 180px;
+            margin: 1px;
+            padding: 2px;
+        }
+        article > h2 {
+            margin-left: 30px;
+            
+        }
+        article > p {
+            margin-left: 10px;
+            text-indent: 20px;
+            text-align: justify;
+            width: 600px;
+        }
+        #capy {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            padding: 0px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding:4px;
+            text-align: center;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #bola {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        #traço {
+            display: inline-block;
+            height: 20px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jogadores Medios de Vida</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Notícias</a>
+            <a href="#">Jogadores</a>
+            <a href="#">Sobre </a>
+            <a href="#">Referências</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas Tecnologias</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Principais Notícas</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis aperiam esse, explicabo eius dicta provident, praesentium ab ratione laborum debitis optio ea fuga, porro laboriosam animi dolorem est facere! Eaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus pariatur dignissimos distinctio! Quam molestiae ea totam, aperiam alias, architecto numquam eligendi, aliquam hic laborum omnis aspernatur possimus illum soluta. Placeat!</p>
+                <span><img id="capy" src="capy.jpg" alt=""></span>
+                <aside>
+                    Artigo de claudio pereira
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por kauã</p>
+    </footer>
+    <div id="bola"></div>
+    <div id="traço"></div>
+</body>
+</html>

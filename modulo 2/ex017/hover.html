@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        @charset "UTF-8";
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: red;
+        }
+        #escondido:hover > p {
+            display: block;
+            background-color: rgba(81, 81, 255, 0.363);
+            color: black;
+            width: 265px;
+        }
+        .escolha > p {
+            display: none;
+        }
+        .escolha{
+            display: inline-block;
+            background-color: yellowgreen;
+            height: 100px;
+            width: 100px;
+        }
+        .escolha:hover {
+            background-color: red;
+        }
+        .escolha:hover > p {
+            display: block;
+            color: black;
+            font-size: 2em;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div id="escondido">
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p></p>
+    <div class="escolha">
+        <p>Eu</p>
+    </div>
+    <div class="escolha">
+        <p>TE</p>
+    </div>
+    <div class="escolha">
+        <p>AMO</p>
+    </div>
+</body>
+</html>
