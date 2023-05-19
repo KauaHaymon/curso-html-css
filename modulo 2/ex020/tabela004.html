@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana</td>
+                <td>f1</td>
+                <td>f2</td>
+                <td>f3</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>f1</td>
+                <td>f2</td>
+                <td>f3</td>
+            </tr>
+            <tr>
+                <td>Claudiana</td>
+                <td>f1</td>
+                <td>f2</td>
+                <td>f3</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Roberto</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
