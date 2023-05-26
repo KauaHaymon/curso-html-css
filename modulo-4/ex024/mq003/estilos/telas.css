@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media all {
+    /* TODAS AS TELAS */
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body, html {
+        height: 100vh;
+        width: 100vw;
+        background-color: #233eff;
+    }
+
+    h1 {
+        color: white;
+        padding: 10px;
+    }
+}
+
+@media screen and (orientation: portrait){
+    /* RETRATO - TELA EM PÉ */
+
+    body {
+        background-image: url('../imagens/cev-portrait.jpg');
+        background-size: contain ;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}
+
+@media screen and (orientation: landscape){
+    /* RETRATO - TELA DEITADA*/
+
+    body {
+        background-image: url('../imagens/cev-landscape.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+}
