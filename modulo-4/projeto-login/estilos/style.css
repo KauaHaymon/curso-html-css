@@ -24,11 +24,14 @@ main {
     width: 250px;
     height: 450px;
     border-radius: 25px;
+    overflow: hidden;
 }
 
 div#foto {
     height: 150px;
-    background: #12539ddc url('');
+    background: #12539ddc url('../flat-all.jpg');
+    background-size: cover;
+    
 }
 
 div#formulario {
