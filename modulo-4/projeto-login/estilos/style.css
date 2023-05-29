@@ -8,32 +8,40 @@
 }
 
 body, html {
-    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: #12529D;
 }
 
 main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
     position: absolute;
     top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
+    overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 450px;
     border-radius: 25px;
-    overflow: hidden;
 }
 
 div#foto {
+    display: block;
     height: 150px;
-    background: #12539ddc url('../flat-all.jpg');
+    background: #12539ddc url('../flat-all.jpg') no-repeat;
     background-size: cover;
-    
+    background-position: left bottom;
 }
 
 div#formulario {
+    display: block;
     padding: 10px;
 }
