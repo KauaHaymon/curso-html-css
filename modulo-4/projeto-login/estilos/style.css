@@ -28,9 +28,12 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
-    height: 450px;
+    width: 260px;
+    height: 460px;
     border-radius: 25px;
+    
+    transition: width 0.3s, height 0.3;
+    transition-timing-function: ease;
 }
 
 div#foto {
