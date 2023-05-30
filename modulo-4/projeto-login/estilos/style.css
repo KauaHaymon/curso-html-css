@@ -56,19 +56,42 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+    margin-bottom: 25px;
 }
 
 form > div.campo {
     display: block;
-    margin: 10px 0px;
+    margin: 5px 0px;
+}
+
+form > div.campo > span {
+    font-size: 1.8em;
+    width: 40px;
+    color: #12529D;
+    padding: 5px;
+}
+
+form > div.campo > input {
+    background-color: #A5CBC9;
+    width: calc(95% - 37px);
+    height: 100%;
+    padding: 8px;
+    border-radius: 9px;
+    border: none;
+    height: 100%;
+    transform: translateY(-9px);
+}
+
+form > div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
     display: block;
-    width: 90%;
+    width: 96%;
     height: 35px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #EC9835;
     font-size: 1em;
     font-weight: bold;
