@@ -57,3 +57,41 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+form > div.campo {
+    display: block;
+    margin: 10px 0px;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 90%;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #EC9835;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #c57d2b;
+}
+
+form > a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #12529D;
+}
+
+form > a:hover {
+    text-decoration: underline;
+}
