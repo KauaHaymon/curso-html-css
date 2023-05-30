@@ -10,7 +10,7 @@
 body, html {
     width: 100vw;
     height: 100vh;
-    background-color: #12529D;
+    background-image: linear-gradient(to bottom, #12529D, #12062a);
 }
 
 main {
